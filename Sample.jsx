@@ -11,7 +11,7 @@ const JSX = (
   </div>
 );
 ReactDOM.render(JSX, document.getElementById('challenge-node'));
-
+ 
 // --- Stateless Functional Component ---
 const MyComponent = function() {
   return (
