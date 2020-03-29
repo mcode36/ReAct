@@ -24,11 +24,6 @@ or, do this under 'Git Bash' command prompt:
 echo "demo3/sub_test" > .git/info/sparse-checkout
 ~~~~
 
-**This step is important**
-~~~~bash
-git config core.sparseCheckout true
-~~~~
-
 Then we will run git pull to clone the sub-folder: 
 ~~~~bash
 git pull origin master
